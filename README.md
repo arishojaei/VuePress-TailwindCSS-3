@@ -44,5 +44,6 @@ module.exports = {
   @import './styles/theme.styl';
 </style>
 ```
+> :warning: You may have issue with compiling TailwindCSS rulesets when you put its directives in a `*.styl` files! in that case, you need to install `node-sass` and `sass-loader` and use `*.scss` files intead of stylus files.
 
 4. I also add (@typography-plugin)[https://tailwindcss.com/docs/typography-plugin] to handles markdown style
